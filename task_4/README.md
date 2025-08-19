@@ -1,8 +1,9 @@
+# Buy, fill, take
 <div class="step-text">
-<h5 id="description">Description</h5>
+<h3 id="description">Description</h3>
 <p>Let's simulate an actual coffee machine! What do we need for that? This coffee machine will have a limited supply of water, milk, coffee beans, and disposable cups. Also, it will calculate how much money it gets for selling coffee.</p>
 <p>There are several options for the coffee machine we want you to implement: first, it should sell coffee. It can make different types of coffee: espresso, latte, and cappuccino. Of course, each variety requires a different amount of supplies, however, in any case, you will need only one disposable cup for a drink. Second, the coffee machine must get replenished by a special worker. Third, another special worker should be able to take out money from the coffee machine.</p>
-<h5 id="objectives">Objectives</h5>
+<h3 id="objectives">Objectives</h3>
 <p>Write a program that offers to buy one cup of coffee or to fill the supplies or to take its money out. Note that the program is supposed to do one of the mentioned actions at a time. It should also calculate the amounts of remaining ingredients and how much money is left. Display the quantity of supplies before and after purchase.</p>
 <ol>
 <li>First, your program reads one option from the standard input, which can be <code class="java">"buy"</code>, <code class="java">"fill"</code>, <code class="java">"take"</code>. If a user wants to buy some coffee, the input is <code class="java">"buy"</code>. If a special worker thinks that it is time to fill out all the supplies for the coffee machine, the input line will be <code class="java">"fill"</code>. If another special worker decides that it is time to take out the money from the coffee machine, you'll get the input <code class="java">"take"</code>.</li>
@@ -20,7 +21,7 @@
 <p> </p>
 <p>To sum up, your program should print the coffee machine's state, process one query from the user, as well as print the coffee machine's state after that. Try to use functions for implementing every action that the coffee machine can do.</p>
 <p> </p>
-<h5 id="examples">Examples</h5>
+<h3 id="examples">Examples</h3>
 <p>An espresso should be number <em>1</em> in the list, a latte number <em>2</em>, and a cappuccino number <em>3</em>.<br/>
 Options are named as <code class="java">"buy"</code>, <code class="java">"fill"</code>, <code class="java">"take"</code>.</p>
 <p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
