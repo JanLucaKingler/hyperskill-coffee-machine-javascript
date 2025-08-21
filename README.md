@@ -1,5 +1,5 @@
 # Coffee Machine
-Coffee Machine project from hyperskill.org for studying JavaScrip, TypeScript, and Kotlin.
+Coffee Machine project from hyperskill.org for studying JavaScrip
 
 # Learning outcomes (JavaScript)
 This project allows you to get a taste of JavaScript. Practice working with functions, challenge yourself with loops and conditions, and get more experience with JS.
